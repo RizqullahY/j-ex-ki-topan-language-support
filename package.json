@@ -1,0 +1,28 @@
+{
+  "name": "j-ex-ki-topan-language-support",
+  "displayName": "Topan",
+  "description": "Highlight variables in .topan files",
+  "version": "1.0.0",
+  "publisher": "RaflyRizqullahYusuf",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Programming Languages"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "topan",
+        "aliases": ["Topan", "topan"],
+        "extensions": [".topan"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "topan",
+        "scopeName": "source.topan",
+        "path": "./syntaxes/topan.tmLanguage.json"
+      }
+    ]
+  }
+}

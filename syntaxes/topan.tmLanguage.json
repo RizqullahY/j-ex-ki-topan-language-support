@@ -1,0 +1,13 @@
+{
+  "scopeName": "source.topan",
+  "patterns": [
+    {
+      "match": "\\b(jadi|fix|cetak)\\b",
+      "name": "keyword.control.topan"
+    },
+    {
+      "match": "\\b[a-z][a-zA-Z0-9_]*\\b",
+      "name": "variable.other.topan"
+    }
+  ]
+}

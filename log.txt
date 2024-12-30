@@ -1,0 +1,140 @@
+
+trait@LAPTOP-BQV6RM86 MINGW64 /d/RAFLY/0 LEARNING/1 VSC EXTENSION/J-Ex-Ki-Topan-Language-Support
+$ code --install-extension ./J-Ex-Ki-Topan-Language-Support
+Installing extensions...
+Extension './j-ex-ki-topan-language-support' not found.
+Make sure you use the full extension ID, including the publisher, e.g.: ms-dotnettools.csharp
+Failed Installing Extensions: ./j-ex-ki-topan-language-support      
+
+trait@LAPTOP-BQV6RM86 MINGW64 /d/RAFLY/0 LEARNING/1 VSC EXTENSION/J-Ex-Ki-Topan-Language-Support
+$ code --install-extension
+Option 'install-extension' requires a non empty value. Ignoring the option.
+
+trait@LAPTOP-BQV6RM86 MINGW64 /d/RAFLY/0 LEARNING/1 VSC EXTENSION/J-Ex-Ki-Topan-Language-Support
+$ npm install -g @vscode/vsce
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\trait\\AppData\\Roaming\\npm\\node_modules\\@vscode',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\trait\AppData\Roaming\npm\node_modules\@vscode\vsce\node_modules\@azure\core-auth'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\trait\\AppData\\Roaming\\npm\\node_modules\\@vscode\\vsce\\node_modules\\@azure\\core-auth'    
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\trait\\AppData\\Roaming\\npm\\node_modules\\@vscode\\vsce',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\trait\AppData\Roaming\npm\node_modules\@vscode\vsce\node_modules\tar-fs\test\fixtures'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\trait\\AppData\\Roaming\\npm\\node_modules\\@vscode\\vsce\\node_modules\\tar-fs\\test\\fixtures'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\trait\\AppData\\Roaming\\npm\\node_modules\\@vscode\\vsce\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\trait\AppData\Roaming\npm\node_modules\@vscode\vsce\node_modules\tar-fs\test'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\trait\\AppData\\Roaming\\npm\\node_modules\\@vscode\\vsce\\node_modules\\tar-fs\\test'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\trait\\AppData\\Roaming\\npm\\node_modules\\@vscode\\vsce\\node_modules\\@azure',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\trait\AppData\Roaming\npm\node_modules\@vscode\vsce\node_modules\@azure'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\trait\\AppData\\Roaming\\npm\\node_modules\\@vscode\\vsce\\node_modules\\@azure'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code EEXIST
+npm error path C:\Users\trait\AppData\Roaming\npm\vsce
+npm error EEXIST: file already exists
+npm error File exists: C:\Users\trait\AppData\Roaming\npm\vsce      
+npm error Remove the existing file and try again, or run npm        
+npm error with --force to overwrite files recklessly.
+npm error A complete log of this run can be found in: C:\Users\trait\AppData\Local\npm-cache\_logs\2024-12-30T11_37_45_075Z-debug-0.log 
+
+trait@LAPTOP-BQV6RM86 MINGW64 /d/RAFLY/0 LEARNING/1 VSC EXTENSION/J-Ex-Ki-Topan-Language-Support
+$ code --version
+1.96.2
+fabdb6a30b49f79a7aba0f2ad9df9b399473380f
+x64
+
+trait@LAPTOP-BQV6RM86 MINGW64 /d/RAFLY/0 LEARNING/1 VSC EXTENSION/J-Ex-Ki-Topan-Language-Support
+$
+
+trait@LAPTOP-BQV6RM86 MINGW64 /d/RAFLY/0 LEARNING/1 VSC EXTENSION/J-Ex-Ki-Topan-Language-Support
+$ vsce
+Usage: vsce <command>
+
+Options:
+  -V, --version                      output the version number      
+  -h, --help                         display help for command       
+
+Commands:
+  ls [options]                       Lists all the files that will be published
+  package [options] [version]        Packages an extension
+  publish [options] [version]        Publishes an extension
+  unpublish [options] [extensionid]  Unpublishes an extension. Example extension id: microsoft.csharp.
+  ls-publishers                      List all known publishers      
+  delete-publisher <publisher>       Deletes a publisher
+  login <publisher>                  Add a publisher to the known publishers list
+  logout <publisher>                 Remove a publisher from the known publishers list
+  verify-pat [options] [publisher]   Verify if the Personal Access Token has publish rights for the publisher.
+  show [options] <extensionid>       Show extension metadata        
+  search [options] <text>            search extension gallery       
+  help [command]                     display help for command       
+
+trait@LAPTOP-BQV6RM86 MINGW64 /d/RAFLY/0 LEARNING/1 VSC EXTENSION/J-Ex-Ki-Topan-Language-Support
+$ vsce package
+(node:4484) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ WARNING  A 'repository' field is missing from the 'package.json' manifest file.
+Do you want to continue? [y/N]
+ ERROR  Aborted
+
+trait@LAPTOP-BQV6RM86 MINGW64 /d/RAFLY/0 LEARNING/1 VSC EXTENSION/J-Ex-Ki-Topan-Language-Support
+$ vsce package
+(node:7596) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ WARNING  A 'repository' field is missing from the 'package.json' manifest file.
+Do you want to continue? [y/N] y
+ WARNING  LICENSE.md, LICENSE.txt or LICENSE not found
+Do you want to continue? [y/N] y
+ DONE  Packaged: D:\RAFLY\0 LEARNING\1 VSC EXTENSION\J-Ex-Ki-Topan-Language-Support\j-ex-ki-topan-language-support-1.0.0.vsix (7 files, 2.63KB)
+
+trait@LAPTOP-BQV6RM86 MINGW64 /d/RAFLY/0 LEARNING/1 VSC EXTENSION/J-Ex-Ki-Topan-Language-Support
+$ code --install-extension topan-highlighter-0.0.1.vsix
+Installing extensions...
+Error: ENOENT: no such file or directory, open 'd:\RAFLY\0 LEARNING\1 VSC EXTENSION\J-Ex-Ki-Topan-Language-Support\topan-highlighter-0.0.1.vsix'
+    at Xh (file:///C:/Users/trait/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/node/cliProcessMain.js:53:28681)
+    at file:///C:/Users/trait/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/node/cliProcessMain.js:53:30009    
+    at C:\Users\trait\AppData\Local\Programs\Microsoft VS Code\resources\app\node_modules\yauzl\index.js:37:21
+    at FSReqCallback.oncomplete (node:fs:189:23) {
+  code: 'Extract',
+  name: 'Extract'
+}
+Failed Installing Extensions: file:///d%3A/RAFLY/0%20LEARNING/1%20VSC%20EXTENSION/J-Ex-Ki-Topan-Language-Support/topan-highlighter-0.0.1.vsix
+
+trait@LAPTOP-BQV6RM86 MINGW64 /d/RAFLY/0 LEARNING/1 VSC EXTENSION/J-E:\:\RAFLY\0 LEARNING\1 VSC EXTENSION\J-Ex-Ki-Topan-Language-Support\j-ex-ki-topan-language-support-0.0.1.vsix'
+-Language-Support\j-ex-ki-topan-language-support-0.0.1.vsix'
+    at Xh (file:///C:/Users/trait/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/node/cliProcessMain.js:53:28681)
+    at file:///C:/Users/trait/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/node/cliProcessMain.js:53:30009
+    at C:\Users\trait\AppData\Local\Programs\Microsoft VS Code\resources\app\node_modules\yauzl\index.js:37:21
+    at FSReqCallback.oncomplete (node:fs:189:23) {
+  code: 'Extract',
+  name: 'Extract'
+}
+Failed Installing Extensions: file:///d%3A/RAFLY/0%20LEARNING/1%20VSC%20EXTENSION/J-Ex-Ki-Topan-Language-Support/j-ex-ki-topan-language-support-0.0.1.vsix
+
+trait@LAPTOP-BQV6RM86 MINGW64 /d/RAFLY/0 LEARNING/1 VSC EXTENSION/J-Ex-Ki-Topan-Language-Support
+$ code --install-extension j-ex-ki-topan-language-support-1.0.0.vsix
+Installing extensions...
+Extension 'j-ex-ki-topan-language-support-1.0.0.vsix' was successfully installed.
+
+trait@LAPTOP-BQV6RM86 MINGW64 /d/RAFLY/0 LEARNING/1 VSC EXTENSION/J-Ex-Ki-Topan-Language-Support
+$ 
