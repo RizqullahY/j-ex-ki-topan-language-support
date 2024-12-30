@@ -1,1 +1,0 @@
-code --install-extension j-ex-ki-topan-language-support-1.0.0.vsix
